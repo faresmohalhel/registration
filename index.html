@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <main class="container mx-auto mt-10">
+      <form
+        id="form"
+        class="flex flex-col gap-y-6 bg-slate-200 w-full lg:w-1/2 mx-auto p-6 rounded-lg"
+        action=""
+      >
+        <h2 class="text-center text-lg font-bold text-gray-600">
+          Register Now
+        </h2>
+        <div class="flex flex-col">
+          <label class="text-gray-500" for="username">username</label>
+          <input
+            class="rounded-lg px-1 py-1 border border-gray-400"
+            name="username"
+            type="text"
+          />
+        </div>
+        <div class="flex flex-col">
+          <label class="text-gray-500" for="password">password</label>
+          <input
+            class="rounded-lg px-1 py-1 border border-gray-400"
+            name="password"
+            type="password"
+          />
+        </div>
+        <div class="flex flex-col">
+          <label class="text-gray-500" for="email">email</label>
+          <input
+            class="rounded-lg px-1 py-1 border border-gray-400"
+            name="email"
+            type="email"
+          />
+        </div>
+        <div class="flex flex-col">
+          <label class="text-gray-500" for="phone">phone</label>
+          <input
+            class="rounded-lg px-1 py-1 border border-gray-400"
+            name="phone"
+            type="tel"
+          />
+        </div>
+        <button
+          id="button"
+          class="border border-blue-300 hover:bg-blue-400 duration-200 text-gray-600 hover:text-white w-fit px-6 py-2 rounded-lg self-center"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
